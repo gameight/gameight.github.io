@@ -5,7 +5,10 @@
 
 		<!-- meta -->
 		<meta charset="UTF-8">
-	    <meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		
+		<link rel="shortcut icon" href="img/gameight/favicon.ico" type="image/x-icon">
+		<link rel="icon" href="img/gameight/favicon.ico" type="image/x-icon">	
 
 	    <!-- css -->
 		<link rel="stylesheet" href="css/bootstrap.min.css">
@@ -50,14 +53,12 @@
 					    	</div>
 	    					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 		      					<!--<ul class="nav navbar-nav navbar-right">
-		      						<li><a href="#about">About Us</a></li>
-		      						<li><a href="#our_service">Service</a></li>
+		      						<li><a href="#about">About</a></li>		      						
 		        					<li><a href="#team">Team</a></li>
-		        					<li><a href="#portfolio">Portfolio</a></li>
-		        					<li><a href="#price_table">Price Table</a></li>
-		        					<li><a href="#blog">Blog</a></li>
-		        					<li><a href="#testimonial">Testimonials</a></li>
-		        					<li><a href="#contact">Contact us</a></li>
+		        					<li><a href="#vision">Vision</a></li>
+		        					<li><a href="#mission">Mission</a></li>
+		        					<li><a href="#workplan">Work Plan</a></li>
+		        					<li><a href="#requirements">System Requirements</a></li>		        					
 							    </ul>-->
 	    					</div>	<!-- collapse navbar-collapse -->
 	  					</div>	<!-- container-fluid -->
@@ -193,7 +194,47 @@
 	    </section>	<!-- team -->
 
 		<!-- About Us -->
-		<section id="works">
+		<section id="vision">
+			<div class="container">
+				<div class="row text-center" id="heading">
+					<div class="col-md-6 col-md-offset-3 wow animated zoomInDown" id="heading-text">
+						<h3>Vision</h3>						
+						<hr class="full">
+						<br/>
+					</div>
+				</div>	<!-- row -->
+				<div class="row about-us-text">
+					<div class="col-md-8 col-md-offset-2">
+						<p class="text-center">								
+							To be a team that makes creative games in mobile gaming industry.
+						</p>
+					</div>
+				</div>	<!-- row -->				
+			</div>	<!-- container -->
+		</section>	<!-- about us -->	
+
+		<!-- About Us -->
+		<section id="mission">
+			<div class="container">
+				<div class="row text-center" id="heading">
+					<div class="col-md-6 col-md-offset-3 wow animated zoomInDown" id="heading-text">
+						<h3>Mission</h3>						
+						<hr class="full">
+						<br/>
+					</div>
+				</div>	<!-- row -->
+				<div class="row about-us-text">
+					<div class="col-md-8 col-md-offset-2">
+						<p class="text-center">								
+							We develop games that entertain people and make them experience pleasant moments.
+						</p>
+					</div>
+				</div>	<!-- row -->				
+			</div>	<!-- container -->
+		</section>	<!-- about us -->
+
+		<!-- About Us -->
+		<section id="workplan">
 				<div class="container">
 					<div class="row text-center" id="heading">
 						<div class="col-md-6 col-md-offset-3 wow animated zoomInDown" id="heading-text">
@@ -261,6 +302,58 @@
 				</div>	<!-- container -->
 			</section>	<!-- about us -->	
 
+			<!-- About Us -->
+		<section id="requirements">
+			<div class="container">
+				<div class="row text-center" id="heading">
+					<div class="col-md-6 col-md-offset-3 wow animated zoomInDown" id="heading-text">
+						<h3>System Requirements</h3>			
+						<hr class="full">
+						<br/>
+					</div>
+				</div>	<!-- row -->
+				<div class="row about-us-text">
+					<div class="col-md-8 col-md-offset-2">
+						<p>
+
+								<strong>Functional Requirements</strong><br>
+								Include multiple levels with a scenario.<br>
+								Levels will be sorted from easy to hard.<br>
+								Game include tutorial level to teach some functions to player.<br>
+								Each level include hidden part to fight bosses and taking skills from them.<br>
+								Player must choose two different combinations of current skills to kill the boss.<br>
+								Each level include moving platforms,orcs,boss and various traps.<br>
+								Each bosses and orcs have different attack type.<br>
+								When Rina takes damage, her health is decrement.<br>
+								Each level include check point that Rina returns the midpoint of the level.<br>
+								When her health is  zero, Rina goes the Check point.<br>
+								When her remaining lives is zero, game over.<br>
+								Player can play the previously completed levels but cannot play the unlocked levels.<br>
+								Player can see which level locked or not in the map scene.<br>
+								Menu include sound and language settings.<br>
+								There will be an interface to display Google Play Game Services.<br>
+								Sign in will be automatic.<br><br>							
+
+								<strong>Non-Functional Requirements</strong><br>
+								<strong>Performance:</strong>
+								We will build the game in Unity, which is one of the best 2D game engines. Our game will be optimized for scripts, garbage collector and graphic rendering after building the raw game. These conditions will provide high performance for our users.<br><br>
+								<strong>Scalability:</strong>
+								Our game will be accessible for all Play Store users. There is no user limitation to play the game, so scalability of the system will be high.<br><br>
+								<strong>Security:</strong>
+								The other main goal of our game is protecting user data. So user's progress will be automatically saved in both local device and cloud. Cloud save will allow to load the player's progress when needed in particular cases such as re-installation, device issues etc.<br><br>
+								<strong>Maintainability:</strong>
+								Our game runs on mobile and tablet side. This system will be written in Unity with Android SDK tools and C#. The game will always updated and debugged according to the user's feedback and other new features.<br><br>
+								<strong>Usability:</strong>
+								Our game will be easy for user. The soft graphics and the specified color palette will be designed for not exhaust the user's eyes. A simple game menu (which will support multi-languages) and detailed walkthrough will make it easier for the user to understand game mechanics.<br><br>
+								<strong>Availability:</strong>
+								Our game will be available for more than 12000 different devices that supports android 4.0 or higher. Users don't have to connect to internet to play the game. Their in-game progress will be loaded in their google accounts when they connect the internet.<br><br>
+								
+
+						</p>
+					</div>
+				</div>	<!-- row -->				
+			</div>	<!-- container -->
+		</section>	<!-- about us -->	
 			
 		<!-- footer -->
 		<section id= "footer" class= "main-footer">			
